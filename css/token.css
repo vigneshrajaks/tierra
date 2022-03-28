@@ -1,0 +1,76 @@
+/* 
+TOEKN HERO SECTION
+*/
+
+.token-hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.token-hero-sub-title {
+  margin-bottom: 1.6rem;
+}
+
+.token-hero-sub-bold {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+/* 
+TOEKN HERO SECTION
+*/
+.section-toke {
+  padding: 9.6rem 0;
+}
+
+.token-grid {
+  grid-template-columns: 35fr 65fr;
+  column-gap: 4.4rem;
+
+  margin-top: 6.4rem;
+}
+
+.grid-text-box {
+  align-self: center;
+}
+
+/* 
+UTILITY SECTION
+*/
+
+.section-utility {
+  padding-bottom: 9.6rem;
+}
+
+.token-card-1 {
+  background-color: #fff;
+  background-image: url(../img/token/token-item-bg-1.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.token-card-2 {
+  background-color: #fff;
+  background-image: url(../img/token/token-item-bg-2.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.token-card-3 {
+  background-color: #fff;
+  background-image: url(../img/token/token-item-bg-3.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+/* ************ */
+/* BELOW 704px */
+/* ************ */
+
+@media (max-width: 44em) {
+  .token-grid {
+    grid-template-columns: 1fr;
+    margin-top: 3.2rem;
+  }
+}

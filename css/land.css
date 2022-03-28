@@ -1,0 +1,58 @@
+.section-land {
+  padding: 9.6rem 0;
+}
+
+.land-grid {
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4.8rem;
+
+  margin-top: 6.4rem;
+}
+
+.grid-text-box {
+  align-self: center;
+}
+
+.property-wrap {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 2.4rem;
+
+  overflow: hidden;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+/* ************ */
+/* BELOW 944px */
+/* ************ */
+
+@media (max-width: 59em) {
+  .land-grid {
+    grid-template-columns: 1fr;
+    row-gap: 4.8rem;
+
+    margin-top: 3.2rem;
+  }
+
+  .grid-img-box {
+    justify-self: center;
+  }
+}
+
+/* ************ */
+/* BELOW 544px */
+/* ************ */
+
+@media (max-width: 34em) {
+  .property-wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.4rem;
+  }
+}

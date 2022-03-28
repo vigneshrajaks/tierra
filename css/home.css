@@ -1,0 +1,146 @@
+/* 
+HERO SECTION
+*/
+
+.home-hero-bg-wrap {
+  background-image: url(../img/hero-bg.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.home-section-hero {
+  padding-top: 12.8rem;
+
+  overflow: hidden;
+}
+
+.home-hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-hero-sub-heading {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+}
+
+.home-hero-img-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 4.8rem;
+}
+
+.hero-img-girl {
+  width: 75%;
+  margin-top: 9.6rem;
+}
+
+/* 
+SELLING SECTION
+*/
+
+.section-selling {
+  padding: 9.6rem 0;
+  overflow: hidden;
+}
+
+.home-card-2 {
+  background-color: #fff;
+  background-image: url(../img/hero-card-bg-2.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.home-card-3 {
+  background-color: #fff;
+  background-image: url(../img/hero-card-bg-3.png);
+  background-size: cover;
+  background-position: bottom;
+}
+/* 
+BENEFITS SECTION
+*/
+
+.section-benefits {
+  padding-bottom: 9.6rem;
+
+  overflow: hidden;
+}
+
+.benefits-grid-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  margin-top: 4.8rem;
+}
+
+.benefit-grid {
+  grid-template-columns: 1fr auto;
+  column-gap: 3.2rem;
+}
+
+.benefit-grid-opp {
+  grid-template-columns: auto 1fr;
+}
+
+.benefits-text-box {
+  align-self: center;
+}
+
+.benefit-description {
+  margin-top: 1.2rem;
+}
+
+.benefit-img {
+  width: 85%;
+}
+
+/* ************ */
+/* BELOW 944px */
+/* ************ */
+
+@media (max-width: 59em) {
+  .hero-img {
+    width: 50%;
+  }
+
+  .hero-img-girl {
+    margin-top: 6.4rem;
+  }
+
+  .home-hero-img-box {
+    margin-top: 3.2rem;
+  }
+
+  .section-benefits {
+    padding: 0 0 9.6rem 0;
+  }
+
+  .benefit-grid,
+  .benefit-grid-opp {
+    grid-template-columns: 1fr;
+    row-gap: 3.2rem;
+  }
+
+  .benefits-text-box {
+    grid-row: 1;
+  }
+
+  .benefit-img {
+    width: 40%;
+    justify-self: center;
+  }
+}
+
+/* ************ */
+/* BELOW 544px */
+/* ************ */
+
+@media (max-width: 34em) {
+  .benefit-img {
+    width: 80%;
+  }
+}
